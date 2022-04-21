@@ -1,12 +1,13 @@
+
 function CommentDate (props){
     function formatDate(date) {
         return date.toLocaleDateString();
       }
     return (
-        <div>
-            <div className='Comment-date'>
-            {formatDate(props.date)}
-        </div>
+        <div className="user-comdate">
+            <div>
+                {formatDate(props.date)}
+            </div>       
         </div>
     )
 }
