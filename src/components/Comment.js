@@ -4,7 +4,6 @@ import CommentDate from "./CommentDate"
 import UserInfo from "../user/UserInfo"
 
 function Comment(props){
-
     return (
         <div>
             <div className='UserInfo'>
